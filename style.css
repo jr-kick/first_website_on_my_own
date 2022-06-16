@@ -5,6 +5,10 @@ body {
     margin: 0px;
 }
 
+p {
+    margin: 0px;
+}
+
 header>h3 {
     margin: 0px;
     font-size: 24px;
@@ -50,9 +54,9 @@ header>h3 {
 
 header {
     display: flex;
-    margin: 10px 300px;
+    margin: 20px 300px;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
 }
 header>div {
     display: flex;
@@ -108,7 +112,6 @@ header a {
 }
 
 .actual_cards p {
-    margin: 0px;
     margin-top: 10px;
     text-align: center;
 }
@@ -120,11 +123,7 @@ header a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 150px 400px; 
-}
-
-.quote p {
-    margin: 0px;
+    padding: 150px 700px;
 }
 
 .the-actual-quote {
@@ -137,4 +136,43 @@ header a {
     font-weight: bold;
     padding-right: 70px;
     font-size: 20px;
+}
+
+.sign-up-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px 300px;
+    padding: 70px 200px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.sign-up-box button {
+    background-color: #ffffff00;
+    color: #F9FAF8;
+    border: solid #F9FAF8;
+    border-width: 3px;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.weight {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sign-up-box button, .fun {
+    font-size: 20px
 }
